@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Information Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Exam Information Calculator</h1>
+        <form id="hoursCalc">
+            <label for="exam">Select Exam:</label>
+            <select id="exam" name="exam">
+                <option value="Pre A1 Starters">Pre A1 Starters</option>
+                <option value="A1 Movers">A1 Movers</option>
+                <option value="A2 Flyers">A2 Flyers</option>
+                <option value="A2 Key for Schools">A2 Key for Schools</option>
+                <option value="A2 Key">A2 Key</option>
+                <option value="B1 Preliminary for Schools">B1 Preliminary for Schools</option>
+                <option value="B1 Preliminary">B1 Preliminary</option>
+                <option value="B2 First for Schools">B2 First for Schools</option>
+                <option value="B2 First">B2 First</option>
+                <option value="C1 Advanced">C1 Advanced</option>
+                <option value="C2 Proficiency">C2 Proficiency</option>
+            </select>
+            <button type="button" onclick="displayExamDetails()">Get Details</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
